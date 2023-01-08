@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "tester/1.0.0": {
+        "dependencies": {
+          "Appraisee": "1.0.0"
+        },
+        "runtime": {
+          "tester.dll": {}
+        }
+      },
+      "Appraisee/1.0.0": {
+        "runtime": {
+          "Appraisee.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tester/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Appraisee/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
