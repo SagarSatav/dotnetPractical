@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 
 public class SerDesr{
 
-    public static string fileName=@"I:\DOTNET\practicals\day8Practice\application\Apptest\student.json";
+    public static string fileName=@"D:\Ram_Sagar\dotnet\PracticeDotnet\dotnetPractical\SerDesrPractice\application\Apptest\student.json";
 
     public static List<Student>stud =new List<Student>();
     public static string SerData(int id,string firstname,string lastname,string college,string email,string password){

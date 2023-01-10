@@ -1,0 +1,31 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+
+
+<div>
+    <h2>List of  Employess at Transflower</h2>
+    @{
+        List<Employee> allEmployees= (List<Employee>)ViewData["employees"];
+        <table border="2" height="300px" width="800px" cellspacing="3px" cellpadding="3px">
+        <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Address</th>
+        </tr>
+          <tr>
+            @foreach( Employee emp in allEmployees){
+               <tr> <td>@emp.Id</td> 
+                 <td>@emp.FirstName</td>  
+                  <td>@emp.LastName</td> 
+                  <td>@emp.Address</td></tr>  
+                
+              
+            }  
+             </tr>  
+        </table>  
+    }
+</div>
