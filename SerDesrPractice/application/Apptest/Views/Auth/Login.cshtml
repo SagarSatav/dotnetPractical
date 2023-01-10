@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Login Page";
+}
+<h1>Login</h1>
+
+
+<div>
+<form  action="/Auth/validate">
+  
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  
+    <label for="password">Password</label>
+    <input type="password" class="form-control" name="password" id="password">
+
+<br>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
